@@ -1,0 +1,26 @@
+/* Estilo adicional para personalização */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container-sm {
+    height: 90%;
+    overflow: hidden; /* Impede que o conteúdo transborde */
+  }
+  
+  .content {
+    overflow-y: auto; /* Habilita rolagem vertical */
+    max-height: calc(100% - 80px); /* Ajusta espaço restante para cabeçalho e botão */
+  }
+  
+  button.btn-link {
+    color: inherit; /* Mantém a cor original do texto */
+    text-decoration: none; /* Remove o sublinhado do botão */
+    border: none; /* Remove as bordas */
+    padding: 0; /* Remove o preenchimento interno */
+  }
+  
+  p {
+    margin: 0; /* Remove margens para alinhamento limpo */
+  }
+  
